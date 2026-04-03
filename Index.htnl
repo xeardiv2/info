@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunicado Oficial - Reestructuración Corporativa</title>
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --surface: #121212;
+            --primary: #f39c12; /* Color Naranja */
+            --text: #e0e0e0;
+            --text-dim: #a0a0a0;
+            --danger: #e74c3c;
+            --border: #2a2a2a;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .official-header {
+            background-color: #000;
+            border-bottom: 2px solid var(--primary);
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .badge {
+            background: var(--danger);
+            color: white;
+            padding: 5px 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            border-radius: 3px;
+            letter-spacing: 1px;
+        }
+
+        h1, h2, h3 {
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .legal-notice {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 30px;
+            margin-bottom: 40px;
+            border-radius: 8px;
+        }
+
+        .staff-changes {
+            border-left: 4px solid var(--primary);
+            padding-left: 20px;
+            margin: 30px 0;
+        }
+
+        .disclaimer-cto {
+            font-style: italic;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            border: 1px dashed var(--border);
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-top: 50px;
+        }
+
+        .feature-box {
+            background: var(--surface);
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .highlight {
+            color: var(--primary);
+            font-weight: bold;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid var(--border);
+            margin: 40px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 768px) {
+            .feature-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="official-header">
+        <span class="badge">Comunicado Oficial</span>
+        <h1>Aviso de Suspensión Temporal y Reestructuración</h1>
+        <p style="max-width: 700px; margin: 20px auto; color: var(--text-dim);">
+            Informamos que este proyecto de <strong>Web Streaming de Alta Calidad</strong> no se encuentra disponible hoy. 
+            Esta situación deriva <strong>puramente de problemas de gestión y seguridad administrativa</strong>, 
+            cumpliendo el sistema con el 100% de los requisitos tecnológicos.
+        </p>
+    </header>
+
+    <div class="container">
+        
+        <section class="legal-notice">
+            <h2>Reorganización Institucional</h2>
+            <p>Se hace saber a los stakeholders y usuarios que la corporación anterior queda <strong>sin efecto</strong>. El proyecto migra a una nueva organización manteniendo este dominio bajo una estructura administrativa renovada.</p>
+            
+            <div class="staff-changes">
+                <p><strong>CFO (Chief Financial Officer):</strong> Desafectado del cargo y suspendido indefinidamente por extralimitación de funciones y atribuciones.</p>
+                <p><strong>CTO (Chief Technology Officer):</strong> Desafectado del cargo. La estructura tecnológica migra íntegramente a la nueva corporación.</p>
+            </div>
+
+            <div class="disclaimer-cto">
+                <strong>Descargo de Responsabilidad Técnica:</strong> El CTO saliente hace entrega del cargo notificando que cualquier aplicación de esta tecnología fuera de los protocolos establecidos conlleva peligrosidad de fallos críticos y costos elevados de servidores.
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Próximos Lanzamientos</h2>
+            <p><strong>Super Audio:</strong> Nuestro sistema de alta fidelidad ha cumplido sus requisitos tecnológicos, actualmente avanzando en fases de financiación.</p>
+            
+            <div class="feature-box" style="margin-top: 20px; border-top: 3px solid var(--primary);">
+                <h3>ElHangar.com <small>(Disponible después del 26 de Abril)</small></h3>
+                <p>Pilar fundamental para la emisión en vivo. Sistema diseñado para streamers con:</p>
+                <ul>
+                    <li><span class="highlight">Libertad de expresión absoluta.</span></li>
+                    <li>Configuración estándar profesional (similar a plataformas líderes).</li>
+                    <li>Bloques de 10 minutos para publicidad propia.</li>
+                    <li>Retorno del <span class="highlight">70% de ingresos publicitarios</span> generados para el streamer.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="feature-grid">
+            <div class="feature-box">
+                <h3>La Academia</h3>
+                <p>Un ecosistema educativo con tres ejes:</p>
+                <ol>
+                    <li><strong>Red Social:</strong> Conexión entre profesores y alumnos con monetización de contenido audiovisual.</li>
+                    <li><strong>Biblioteca:</strong> Repositorio digital de contenidos de alta calidad.</li>
+                    <li><strong>Aula Virtual:</strong> Conexión directa docente-alumno tras suscripción mensual.</li>
+                </ol>
+            </div>
+
+            <div class="feature-box">
+                <h3>El Ander / Eventos</h3>
+                <p>Nuestro espacio físico: Un <span class="highlight">templo de estética gótica</span> donde la tecnología y el arte convergen.</p>
+                <ul>
+                    <li>Emisión de eventos en vivo por <strong>naranja.com</strong>.</li>
+                    <li>Grabación y filmación en ultra alta calidad.</li>
+                    <li>Sistema de cocina integrado para eventos gastronómicos de alto nivel.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2026 Nueva Organización Corporativa - El Hangar & El Ander. Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
